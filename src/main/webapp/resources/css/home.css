@@ -1,0 +1,31 @@
+body
+{
+background-color:#DCDCDC;
+font-family: 'Bebas Neue', sans-serif;
+}
+button, input[type="button"] {
+  font-family: 'Bebas Neue', sans-serif;
+}
+h2
+{
+text-align:center;
+}
+.center-table {
+  margin: 0 auto; /* Устанавливаем отступы по горизонтали автоматически */
+}
+
+
+.center-element {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh; /* Центрирование по вертикали на всю высоту окна */
+}
+
+.center-form {
+  display: flex;
+  flex-direction: column; /* Выравнивание по вертикали */
+  justify-content: center; /* Выравнивание по горизонтали */
+  align-items: center; /* Выравнивание по горизонтали */
+  height: 100vh; /* Центрирование по вертикали на всю высоту окна */
+}
